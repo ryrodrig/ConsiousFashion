@@ -491,11 +491,12 @@
                 know about new collections and access to our exclusive
                 discounts.
               </p>
-              <form class="cta-form" onsubmit="">
+              <form class="cta-form" name="subscription" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
                   <input
                     id="full-name"
+                    name="full-name"
                     type="text"
                     placeholder="John Smith"
                     required
@@ -505,6 +506,7 @@
                   <label for="email">Email Address</label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
                     placeholder="me@example.com"
                     required
